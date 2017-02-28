@@ -1,0 +1,14 @@
+Name: Mason Birgenheier
+Date: February 5th, 2017
+
+This is my first text file for MART 340- Web Development
+
+
+I added a new line to this file in my text
+
+Another..
+
+And another...
+
+
+HAHAHA
