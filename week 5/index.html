@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Week 5 HW</title>
+
+<h1>
+  <center>Favorite River to Fish</center></h1>
+ <center> <a href="https://www.flickr.com/photos/137650728@N03/23730216013/in/photolist-C9Xytp-4ZFPfi-s9p1n6-8nK9Ko-fqGAiE-5NZemf-qzbYEM-d57eGy-962mhv-7B4tvA-iMFg5w-dAxekF-5fyK3n-4hKuJr-oc4tAt-6tSKy2-mbdF28-6nnbTv-9xYRX8-5LJhyC-iHiM4-fdZwet-4mbCfK-4YB8mo-poLP8z-7Ac4wT-dMfawr-6Yjuux-6UcN1N-8qoEV-aPU7Wi-6UoVbG-3anirq-68vSww-dNHAEk-5oppGX-47Mhh8-863mTF-bEH3fr-oUxgYh-2a9GqX-9AzXUk-5cF2fi-dMfaAx-7di1PQ-4FasUq-5mWLfg-5fyLgF-5fyJmD-dmuGv6"><img src="./images/fishing.png" alt="Fishing" title="Fishing" width="550" height="150"> </a> </center>
+</head>
+
+<h3> Please answer the following questions: </h3>
+
+ <fieldset>
+  <p>
+      Gender:
+      <input id="female" type="radio" name="gender" value="f" autofocus />
+      <label for="female">Female</label>
+      <input id="male" type="radio" name="gender" value="m">
+      <label for="male">Male</label>
+  </p>
+  <p>
+    Email:
+    <input type="email" name="email" required />
+    <input type="submit" value="Submit" />
+      <label for="email">Email</label>
+  </p>
+</fieldset>
+
+<h3> Your preferences:</h3>
+  <p>
+    <label for="name">Which is the best river to fish in Montana?</label>
+           <input type="text" name="name" placeholder="Enter River" autofocus required>
+           <br />
+         </p>
+
+         <p>
+         <a> <img src="./images/montana river map" alt="Montana River Map" title="Map of Mountains" width="400" height="255"> </a>
+
+       </p>
+
+           <p>
+             <form action="http://www.example.com/comments.php">
+     <h3>Describe your favorite fishing experience.  </h3>
+     <textarea name="description" cols="20" rows="4" style="min-width:100%">
+     Enter your answer...
+     </textarea>
+ </form>
+</p>
+
+<p>
+
+  <h3>Select the season(s) you'd rather fish: </h3>
+
+      <input type="checkbox" name="preference" value="winter" /> Winter<br />
+        <input type="checkbox" name="preference" value="spring" /> Spring<br />
+        <input type="checkbox" name="preference" value="summer"  checked /> Summer<br />
+        <input type="checkbox" name="preference" value="fall" /> Fall<br />
+    </p>
+<p>
+  <h3> Select a River: </h3>
+    <select name="range">
+    	<option value="clark fork river">Clark Fork River</option>
+    	<option value="blackfoot">Blackfoot</option>
+    	<option value="madison">Madison</option>
+    	<option value="missouri">Missouri</option>
+    	<option value="smith">Smith</option>
+    	<option value="flathead" selected>Flathead</option>
+    </select>
+  </p>
+
+</p>
+
+
+</html>
