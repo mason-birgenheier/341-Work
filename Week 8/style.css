@@ -1,0 +1,17 @@
+h1.heading{
+  color: red;
+  text-align: center;
+  font-family: 'Comic Sans MS', monospace;
+  font-size 40pt;
+  letter-spacing: normal;
+  font-variant:small-caps;
+}
+
+h2.heading2 {
+  color: blue;
+  text-align: center;
+  font-family: 'Comic Sans MS',monospace;
+  font-size: 35pt;
+  letter-spacing: normal;
+  font-variant: small-caps;
+}
