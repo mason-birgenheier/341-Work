@@ -8,4 +8,4 @@ okay and was mapping without a problem.
 
 3) The fonts were a pain for me, but I truly feel as if I am getting more comfortable.
 
-4) I'm mostly still frustrated about my website not showing up in my repo.
+4) I'm mostly still frustrated about my website not showing up... I followed week 3 'how to go live' and still not working...
